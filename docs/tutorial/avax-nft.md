@@ -6,7 +6,7 @@ issueUrl: https://github.com/protocol/nft-website/issues/224
 
 # Mint ERC721 NFTs on Avalanche
 
-This tutorial will guide you through getting started with an EVM-compatible ERC721 tokens minting work flow on [Avalanche](https://www.avax.network/) using Node.js REPL.
+This tutorial will guide you through getting started with an EVM-compatible ERC721 tokens minting workflow on [Avalanche](https://www.avax.network/) using Node.js REPL.
 
 Here is an overview of what we're going to learn:
 
@@ -56,7 +56,7 @@ In order to interact with the blockchain locally, we'll have to run some nodes l
 First, build the `avalanchego` and `ava-sim` programs in the downloaded repositories. They are Go projects that need to be compiled to executable programs. Both projects include a handy shell script that automatically builds the project located within its root directory at `/scripts/build.sh` as shown below (you can find the build script in the same location under `ava-sim`):
 
 ```shell
-avalancego/
+avalanchego/
 ├── ...
 └──scripts
    ├── ansible
